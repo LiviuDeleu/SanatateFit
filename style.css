@@ -1,0 +1,39 @@
+.Meniu{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+background-color: gray
+}
+#ButonAcasa{
+color: white ;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+margin-left: 100px;
+}
+.ButoaneMeniu{
+color: black;
+font-family:Bebas Neue ;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+}
+.TextBold{
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 98px;
+color: #313235;
+}
+.TextSimplu{
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 49px;
+color: #3E3F43;
+}
+.Bold1{
+color: black
+}
