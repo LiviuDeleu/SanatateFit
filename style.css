@@ -1,7 +1,15 @@
+/* Body*/
+body{
+background-image: url(photo/Background1.JPG);
+overflow-x: hidden;
+overflow-y: hidden;
+}
+/* Meniul*/
 .Meniu{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-background-color: gray
+background-color: rgb(51, 51, 51);
+cursor: pointer;
 }
 #ButonAcasa{
 color: white ;
@@ -12,28 +20,60 @@ font-size: 30px;
 margin-left: 100px;
 }
 .ButoaneMeniu{
-color: black;
+color: rgb(255, 255, 255);
 font-family:Bebas Neue ;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
 }
+/* Continut din body*/
 .TextBold{
 font-family: Bebas Neue;
 font-style: normal;
 font-weight: bold;
 font-size: 72px;
 line-height: 98px;
-color: #313235;
+color: #000000;
+top: 0px;
 }
 .TextSimplu{
 font-family: Bebas Neue;
 font-style: normal;
 font-weight: normal;
-font-size: 36px;
-line-height: 49px;
-color: #3E3F43;
+font-size: 50px;
+line-height: 59px;
+color: #000000;
 }
 .Bold1{
-color: black
+color: rgb(255, 0, 0)
+}
+.TextFoto{
+display: grid;
+grid-template-columns: 600px 600px;
+}
+.Man1{
+margin-top: 10px;
+margin-left: 0px;
+height: 590px;
+width: 570px;
+z-index: -1;
+}
+/* Butonul*/
+.button {
+background-color: #ff0000;
+border: none;
+color: white;
+padding: 10px 62px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 8px 6px;
+cursor: pointer;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+margin-left: 337px;
+font-family: Bebas Neue;
+font-size: 30px;
 }
