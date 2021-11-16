@@ -136,5 +136,23 @@ cursor: pointer;
     background-size: cover;
     height: 800px;
     overflow-x: hidden;
-overflow-y: hidden;
+    overflow-y: hidden;
+}
+/* --------------------------Program-----------------------------*/
+
+.TextPag3{
+    background-color: rgb(0, 0, 0);
+    margin-top: -40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#body3{
+    background-image: url(photo/Background3.jpg);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
