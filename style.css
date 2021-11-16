@@ -1,5 +1,5 @@
-/* Body*/
-body{
+/* Body1*/
+#body1{
 background-image: url(photo/Background1.JPG);
 overflow-x: hidden;
 overflow-y: hidden;
@@ -23,6 +23,7 @@ margin-left: 100px;
 text-decoration: none;
 text-align: center;
 margin-top: 5px;
+cursor: pointer;
 }
 .ButoaneMeniu{
 color: rgb(255, 255, 255);
@@ -33,6 +34,7 @@ font-size: 30px;
 text-align: center;
 text-decoration: none;
 margin-top: 5px;
+cursor: pointer;
 }
 /* Continut din body*/
 .TextBold{
@@ -96,10 +98,41 @@ font-size: 30px;
     height: 750px;
     width: 490px;
     margin-top: -80px;
+    margin-left: -20px;
 }
 .Abonamente{
     display: grid;
-    grid-template-columns: 500px 300px;
+    grid-template-columns: 500px 220px 300px;
     grid-column-gap: 100px;
-    margin-left: 150px;
+    margin-left: -20px;
+}
+.TextBoldAlb{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 98px;
+color: #ffffff;
+top: 0px;
+margin-left: 10px;
+}
+.TextBoldRos{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 98px;
+color: #ff0000;
+top: 0px;
+}
+
+#body2{
+    background-image: url(photo/Background2.JPG);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    overflow-x: hidden;
+overflow-y: hidden;
 }
