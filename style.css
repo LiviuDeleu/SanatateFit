@@ -93,6 +93,7 @@ font-size: 30px;
     height: 600px;
     margin-top: 10px;
     margin-left: 50px;
+    cursor: pointer;
 }
 #DivMan2{
     height: 750px;
@@ -124,6 +125,7 @@ font-size: 72px;
 line-height: 98px;
 color: #ff0000;
 top: 0px;
+cursor: pointer;
 }
 
 #body2{
