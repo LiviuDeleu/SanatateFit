@@ -1,91 +1,91 @@
 /* Body1*/
 #body1{
-background-image: url(photo/Background1.JPG);
-overflow-x: hidden;
-overflow-y: hidden;
-} 
+    background-image: url(photo/Background1.JPG);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 /* Meniul*/
 .Meniu{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-background-color: rgb(51, 51, 51);
-cursor: pointer;
-text-decoration: none;
-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(51, 51, 51);
+    cursor: pointer;
+    text-decoration: none;
+    height: 50px;
 }
 #ButonAcasa{
-color: rgb(255, 0, 0) ;
-font-family: Bebas Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-margin-left: 100px;
-text-decoration: none;
-text-align: center;
-margin-top: 5px;
-cursor: pointer;
+    color: rgb(255, 0, 0) ;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    margin-left: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
 }
 .ButoaneMeniu{
-color: rgb(255, 255, 255);
-font-family:Bebas Neue ;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-text-align: center;
-text-decoration: none;
-margin-top: 5px;
-cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family:Bebas Neue ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+    cursor: pointer;
 }
 /* Continut din body*/
 .TextBold{
-font-family: Bebas Neue;
-font-style: normal;
-font-weight: bold;
-font-size: 72px;
-line-height: 98px;
-color: #000000;
-top: 0px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #000000;
+    top: 0px;
 }
 .TextSimplu{
-font-family: Bebas Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 50px;
-line-height: 59px;
-color: #000000;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 59px;
+    color: #000000;
 }
 .Bold1{
-color: rgb(255, 0, 0)
+    color: rgb(255, 0, 0)
 }
 .TextFoto{
-display: grid;
-grid-template-columns: 600px 600px;
+    display: grid;
+    grid-template-columns: 600px 600px;
 }
 .Man1{
-margin-top: 10px;
-margin-left: 0px;
-height: 590px;
-width: 570px;
-z-index: -1;
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 590px;
+    width: 570px;
+    z-index: -1;
 }
 /* Butonul*/
 .button {
-background-color: #ff0000;
-border: none;
-color: white;
-padding: 10px 62px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-margin: 8px 6px;
-cursor: pointer;
-border-top-right-radius: 10px;
-border-top-left-radius: 10px;
-border-bottom-right-radius: 10px;
-border-bottom-left-radius: 10px;
-margin-left: 300px;
-font-family: Bebas Neue;
-font-size: 30px;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 10px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 6px;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 300px;
+    font-family: Bebas Neue;
+    font-size: 30px;
 }
 /* --------------------------Abonamente-----------------------------*/
 #AbonamenteFoto{
@@ -109,23 +109,23 @@ font-size: 30px;
 }
 .TextBoldAlb{
     font-family: Bebas Neue;
-font-style: normal;
-font-weight: bold;
-font-size: 72px;
-line-height: 98px;
-color: #ffffff;
-top: 0px;
-margin-left: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #ffffff;
+    top: 0px;
+    margin-left: 10px;
 }
 .TextBoldRos{
     font-family: Bebas Neue;
-font-style: normal;
-font-weight: bold;
-font-size: 72px;
-line-height: 98px;
-color: #ff0000;
-top: 0px;
-cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #ff0000;
+    top: 0px;
+    cursor: pointer;
 }
 
 #body2{
@@ -140,12 +140,6 @@ cursor: pointer;
 }
 /* --------------------------Program-----------------------------*/
 
-.TextPag3{
-    background-color: rgb(0, 0, 0);
-    margin-top: -40px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
 #body3{
     background-image: url(photo/Background3.jpg);
     z-index: -1;
@@ -154,5 +148,44 @@ cursor: pointer;
     background-size: cover;
     height: 800px;
     overflow-x: hidden;
-    overflow-y: hidden;
+}
+.grafic1{
+    width: 600px;
+    height: 750px;
+}
+.grafic2{
+    width: 600px;
+    height: 750px;
+}
+.grafics{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-column-gap: 50px;
+}
+.section1{
+    display: grid;
+    grid-template-columns: 140px 115px 150px;
+    grid-column-gap: 30px;
+    grid-row-gap: 200px;
+    margin-top: -620px;
+    margin-left: 145px;
+}
+.programbutton{
+    font-family: Bebas Neue;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    font-size: 40px;
+}
+.programbutton:hover{
+    color: red;
+}
+.section2{
+    display: grid;
+    grid-template-columns: 140px 115px 150px;
+    grid-column-gap: 30px;
+    grid-row-gap: 200px;
+    margin-left: 790px;
+    margin-top: -305px;
 }
