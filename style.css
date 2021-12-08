@@ -129,7 +129,7 @@
 }
 
 #body2{
-    background-image: url(photo/Background2.JPG);
+    background-color: black;
     z-index: -1;
     background-position: center;
     background-repeat: no-repeat;
