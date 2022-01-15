@@ -320,3 +320,8 @@ a{
     font-family: Bebas Neue;
     font-size: 80px;
 }
+/*-------------------------------Formuar----------------------*/
+#formularlink{
+    text-decoration: none;
+    color: red;
+}
