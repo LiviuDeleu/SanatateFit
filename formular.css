@@ -89,3 +89,14 @@ border-color: red;
     margin-top: 2%;
     margin-left: 35%; 
 }
+.localitate{
+    background-color:rgb(231, 85, 85);
+    border-color: black;
+    border-radius: 5px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    height: 35px;
+    width: 30.6%;
+    margin-top: 2%;
+    margin-left: 35%; 
+}
