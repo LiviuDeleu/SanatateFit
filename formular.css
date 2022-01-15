@@ -114,3 +114,6 @@ border-color: red;
     margin-top: 2%;
     margin-left: 35%;
 }
+.card:hover{
+    border-color: red;
+}
