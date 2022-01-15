@@ -1,0 +1,29 @@
+body{
+    background-image:url(photo/Background5.jpg)
+}
+.menuformular{
+    background-color: rgb(51, 51, 51);
+    color: red;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    margin-left: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 20%;
+    height: 50px;
+}
+#formlink{
+    color: red;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -28px;
+}
