@@ -50,3 +50,36 @@ border-color: red;
 ::placeholder{
     color: black;
 }
+.password{
+    background-color:rgb(231, 85, 85);
+    border-color: black;
+    border-radius: 5px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    height: 30px;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 35%; 
+}
+.abonament{
+    background-color:rgb(231, 85, 85);
+    border-color: black;
+    border-radius: 5px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    height: 30px;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 35%; 
+}
+.abonamente{
+    background-color:rgb(231, 85, 85);
+    border-color: black;
+    border-radius: 5px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    height: 35px;
+    width: 30.6%;
+    margin-top: 2%;
+    margin-left: 35%; 
+}
