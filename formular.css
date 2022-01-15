@@ -3,18 +3,24 @@ body{
 }
 .menuformular{
     background-color: rgb(51, 51, 51);
+    border-color: rgb(51, 51, 51);
     color: red;
     font-family: Bebas Neue;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 200%;
     margin-left: 100px;
     text-decoration: none;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 20px;
     cursor: pointer;
     width: 20%;
     height: 50px;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+#formlink:hover{
+    color:white;
 }
 #formlink{
     color: red;
@@ -26,4 +32,21 @@ body{
     position: absolute;
     margin-top: 5px;
     margin-left: -28px;
+}
+.email{
+    background-color:rgb(231, 85, 85);
+    border-color: black;
+    border-radius: 5px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    height: 30px;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+.email:hover{
+border-color: red;
+}
+::placeholder{
+    color: black;
 }
