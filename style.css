@@ -1,0 +1,329 @@
+/* Body1*/
+#body1{
+    background-image: url(photo/Background1.JPG);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/* Meniul*/
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(51, 51, 51);
+    cursor: pointer;
+    text-decoration: none;
+    height: 50px;
+}
+#butonhome{
+    color: rgb(255, 0, 0) ;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    margin-left: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.butonsmenu{
+    color: rgb(255, 255, 255);
+    font-family:Bebas Neue ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+/* Continut din body*/
+.textbold{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #000000;
+    top: 0px;
+}
+.textsimple{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 59px;
+    color: #000000;
+}
+.bold1{
+    color: rgb(255, 0, 0)
+}
+.textfoto{
+    display: grid;
+    grid-template-columns: 600px 600px;
+}
+.man1{
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 590px;
+    width: 570px;
+    z-index: -1;
+}
+/* Butonul*/
+.button {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 10px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 6px;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 300px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+/* --------------------------Abonamente-----------------------------*/
+#abonamentsfoto{
+    width: 500px;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#divman2{
+    height: 750px;
+    width: 490px;
+    margin-top: -80px;
+    margin-left: -20px;
+}
+.abonaments{
+    display: grid;
+    grid-template-columns: 500px 220px 300px;
+    grid-column-gap: 100px;
+    margin-left: -20px;
+}
+.textboldwhite{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #ffffff;
+    top: 0px;
+    margin-left: 10px;
+}
+.textboldred{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #ff0000;
+    top: 0px;
+    cursor: pointer;
+}
+
+#body2{
+    background-color: black;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/* --------------------------Program-----------------------------*/
+
+#body3{
+    background-image: url(photo/Background3.jpg);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    overflow-x: hidden;
+}
+.grafic1{
+    width: 600px;
+    height: 750px;
+}
+.grafic2{
+    width: 600px;
+    height: 750px;
+}
+.grafics{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-column-gap: 50px;
+}
+.section1{
+    display: grid;
+    grid-template-columns: 140px 115px 150px;
+    grid-column-gap: 30px;
+    grid-row-gap: 200px;
+    margin-top: -620px;
+    margin-left: 145px;
+}
+.programbutton{
+    font-family: Bebas Neue;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    font-size: 40px;
+}
+.programbutton:hover{
+    color: red;
+}
+.section2{
+    display: grid;
+    grid-template-columns: 140px 115px 150px;
+    grid-column-gap: 30px;
+    grid-row-gap: 200px;
+    margin-left: 790px;
+    margin-top: -305px;
+}
+
+
+/* --------------------------Program-----------------------------*/
+#body4{
+    background-image: url(photo/Background4.jpg);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.youtubelick{
+    background-color: #ff0000;
+    border-radius: 10px;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    font-family:Bebas Neue;
+    color: white;
+    cursor: pointer;
+}
+.youtubetext{
+    text-decoration: none;
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 50px;
+}
+.youtubefoto{
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    margin-top: 13px;
+    margin-left: -15px;
+}
+.googlelick{
+    background-color: white;
+    border-radius: 10px;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+.googletext{
+    text-decoration: none;
+    font-family: Bebas Neue;
+    color: blue;
+    font-size: 50px;
+
+}
+.googlefoto{
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    margin-top: 13px;
+    margin-left: -15px;
+}
+
+.instagramlick{
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+.instagramtext{
+    text-decoration: none;
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.instagramfoto{
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    margin-top: 10px;
+}
+.viberlick{
+    justify-content: center;
+    background-color: darkviolet;
+    color: white;
+    border-radius: 10px;
+    height: 70px;
+    width: 200px;
+    cursor: pointer;
+}
+.vibertext{
+    text-decoration: none;
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+}
+.man3{
+    height: 400px;
+    width: 550px;
+    margin-left: 400px;
+}
+.phone{
+    margin-left: 20px;
+    margin-top: -130px;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-column-gap: 220px;
+}
+.phonenumber{
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 80px;
+}
+.adress{
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 80px;
+}
+/*-------------------------------Formuar----------------------*/
+#formularlink{
+    text-decoration: none;
+    color: red;
+}
