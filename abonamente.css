@@ -1,0 +1,50 @@
+#abonamentsfoto{
+    width: 500px;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#divman2{
+    height: 750px;
+    width: 490px;
+    margin-top: -80px;
+    margin-left: -20px;
+}
+.abonaments{
+    display: grid;
+    grid-template-columns: 500px 220px 300px;
+    grid-column-gap: 100px;
+    margin-left: -20px;
+}
+.textboldwhite{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #ffffff;
+    top: 0px;
+    margin-left: 10px;
+}
+.textboldred{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #ff0000;
+    top: 0px;
+    cursor: pointer;
+}
+
+body{
+    background-color: black;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
