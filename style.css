@@ -1,9 +1,3 @@
-/* Body1*/
-#body1{
-    background-image: url(photo/Background1.JPG);
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
 /* Meniul*/
 .menu{
     display: grid;
